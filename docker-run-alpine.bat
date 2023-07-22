@@ -1,1 +1,1 @@
-docker run -p 8080:8080 -p 3000:3000 --network my-net --name energymeter -d -v e:\work\integrity\measurements:/var/integrity/energymeter/measurements energymeter:alpine
+docker run -p 8080:8080 -p 3000:3000 --name energymeter -d -v e:\work\integrity\measurements:/var/integrity/energymeter/measurements integritypz/energymeter:1.0-alpine
